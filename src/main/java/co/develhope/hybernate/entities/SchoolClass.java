@@ -16,7 +16,7 @@ public class SchoolClass {
     @Column (name = "description", nullable = false)
     public String description;
 
-    @OneToMany(mappedBy = "class")
+    @OneToMany
     private List<Enrollment> enrollments;
 
 
